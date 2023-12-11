@@ -1,0 +1,35 @@
+.brown-block{
+    background-color: #d18a46;
+}
+
+.light-brown-block{
+    background-color: #fece9e;
+}
+
+.white-block{
+    background-color: white;
+}
+
+.brown-block,
+.light-brown-block,
+.white-block{
+    aspect-ratio: 1;
+    border: 1px solid black;
+    display: flex;
+}
+
+.character{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+figure{
+    width: 100%;
+}
